@@ -1,0 +1,15 @@
+h1 {
+    color: steelblue;
+    font-size: 64px;
+    text-shadow: 2px 2px 5px #484848;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #252525;
+}
+
+.importante {
+    color: #c36161;
+    font-weight: 700;
+}

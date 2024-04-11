@@ -1,0 +1,61 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    background-color: slateblue;
+    min-height: 50px;
+    padding-top: 1px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 2px;
+}
+
+nav ul li {
+    background-color: brown;
+    width: 100px;
+    display: inline-block;
+
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.galeria {
+    background-color: brown;
+    padding-left: 20px;
+}
+
+.card {
+    border: 2px solid rgb(30, 30, 30);
+    background-color: white;
+    display: inline-block;
+
+    width: 320px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+.box {
+    border: 10px solid blueviolet;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}

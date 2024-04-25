@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 64px;
+}
+header {
+    background-image: url(images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 0%;
+    background-size: cover;
+    height: 400px;
+    padding-top: 190px;
+}
+
+nav {
+    background-color: #102426;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav ul li a:hover {
+    color: rgb(247, 238, 221);
+    border-bottom: 2px solid wheat;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* Estilos de las secciones */
+section {
+    min-height: 500px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+section h2 {
+    text-align: center;
+}
+#inicio {
+}
+#inicio p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #1C401E;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+    margin-left: 300px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #295d2c;
+
+}
+
+.img-main {
+    border-radius: 5px;
+
+}
+#productos {
+    background-color: #A66329;
+}
+
+#contactos {
+    background-color: #BF766F;
+}
+
+.col {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #102426;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}

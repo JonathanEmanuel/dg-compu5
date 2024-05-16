@@ -1,9 +1,7 @@
-# Clase 08 - Flexbox
+# Clase 09 - Responsive Web Design
 
 🎯 Temas de Hoy
-- display: flex
-- justify-content
-- align-items
-- flex-wrap
-- gap
-- flex-direction
+- Diseños Responsive
+- Mobile Firts
+- Medidas Relativas: %, rem, em, vw y vh
+- Media Queries

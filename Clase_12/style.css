@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: slateblue;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: slateblue;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: white;
+}
+
+nav {
+    background-color: cadetblue;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+
+nav ul {
+    min-height: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: border-bottom 1s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid bisque;
+}
+main {
+    min-height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.box .text {
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 9px 5px;
+    text-align: center;
+    transition: all 2s;
+}
+
+.box:hover .text {
+    transform: translateY(-65px);
+
+}
+footer {
+    background-color: rgb(16, 16, 16);
+    min-height: 100px;
+    width: 100vw;
+    
+}
+
+footer p {
+    color: white;
+}
+
+.row {
+    display: flex;
+    min-height: 100px;
+
+    flex-wrap: nowrap;
+}
+
+.col {
+
+    width: 100%;
+    padding: 24px;
+}
+
+
+.box {
+    background-color: slateblue;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+    overflow: hidden;
+}
+
+.box p {
+    color: white;
+    
+}
+
+.translate:hover {
+    transform: translate(40px, 20px);
+}
+
+.translateY:hover{
+    transform: translateY(-50px);
+}
+
+.rotate:hover {
+    transform: rotate(-45deg);
+}
+
+.rotateX:hover {
+    transform: rotateX(70deg);
+}
+
+.rotateY:hover{
+    transform: rotateY(60deg);
+}
+
+.rotateZ:hover{
+    transform: rotateZ(60deg);
+}
+
+.scale:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.skew:hover {
+    transform: skew(20deg, 20deg);
+}
+
+input {
+    padding: 5px;
+    width: 100px;
+    transition: width 1s;
+}
+
+input:hover {
+    width: 300px;
+}
+
+
+.card {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: all 2s;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px #232323;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 10px #3a3a3a;
+}
+
+
+.card p {
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 50px;
+    text-align: center;
+    padding: 10px 5px;
+    color: white;
+    transition: all 2s;
+}
+
+.card img {
+    transition: all 3s;
+    filter: grayscale(1);
+}
+
+.card:hover p {
+    transform: translateY(-65px);
+}
+
+.card:hover img {
+    transform: scale(2);
+    filter: grayscale(0);
+
+}
+
+
+.foto {
+    width: 200px;
+    height: 120px;
+    border: 1px solid rgb(36, 36, 36);
+    background-color: white;
+    padding: 2px;
+    border-radius: 3px;
+    transition: all 2s;
+    cursor: pointer;
+}
+
+.foto:hover {
+    transform: scale(2, 2);
+}
+
+.secciones1 {
+    padding: 32px;
+    background-color: antiquewhite;
+    min-height: 600px;
+    width: 80vw;
+    padding-top: 24px;
+
+}
+
+.secciones2 {
+    padding: 32px;
+    background-color: rgb(194, 157, 109);
+    height: 600px;
+    width: 80vw;
+    padding-top: 24px;
+
+}
+
+.secciones3 {
+    padding: 32px;
+    background-color: antiquewhite;
+    height: 600px;
+    padding-top: 24px;
+
+}
+
+.arrow {
+    background-color: slateblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+
+.arrow a { 
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
